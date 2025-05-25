@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="icon"
+      href="https://threejs.org/files/favicon.ico"
+      type="image/x-icon"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Deveb</title>
+  </head>
+
+  <body class="overflow-x-hidden">
+    <div class="w-full">
+      <nav class="fixed top-0 left-0 w-full z-9 flex justify-between itemms-center">
+        <h3 class="font-bold p-10 text-2xl font-[Montserrat]">deveb.co</h3>
+        <div class="flex justify-between items-center gap-4 font-[Montserrat]">
+          <a href="#Home">Home</a>
+          <a href="#About">About</a>
+          <a href="#Contact">Contact</a>
+          <a class="pr-10" href="#Projects">Projects</a>
+        </div>
+      </nav>
+      <div class="landing w-full h-[200vh]">
+        <div class="fixed bottom-2/3 left-1/2 -translate-x-1/2 -translate-y-1/2 ">
+          <h1 class="text-5xl font-bold tracking-widest">Design.Development.Experience</h1>
+        </div>
+        <canvas class="sticky pointer-events-none top-0 left-0 z-[-1]" id="canvas"></canvas>
+      </div>
+      <div class="w-full h-screen bg-black"></div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
